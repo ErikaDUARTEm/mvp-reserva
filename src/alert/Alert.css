@@ -1,0 +1,23 @@
+/* Estilos para el botón de confirmación */
+.confirm-button {
+    background-color: #28a745;
+    color: #fff;
+    padding: 10px 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin: 10px;
+    border-color: transparent;
+
+}
+  /* Estilos para el botón de cancelación */
+.cancel-button {
+    background-color: #dc3545; 
+    color: #fff; 
+    padding: 10px 10px;
+    border-radius: 10px;
+    margin: 10px;
+    border-color: transparent;
+}

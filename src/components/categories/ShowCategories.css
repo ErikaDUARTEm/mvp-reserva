@@ -1,0 +1,43 @@
+.container-all-service{
+    display: flex;
+    flex-direction: column;
+    gap:16px;
+    width: 100%;
+}
+
+.container-service{
+    background: rgb(253, 248, 248);
+    border: 2px solid #a09c9c9b;
+    box-sizing: border-box;
+    overflow: auto;
+    
+}
+.container-text p{
+    margin: 0;
+    padding: 2px;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+.container-button{
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: flex-end;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.container-button button{
+    width: max-content;
+    padding: 5px 10px;
+    height: 30px;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.container-button button:hover{
+    cursor: pointer;
+}
