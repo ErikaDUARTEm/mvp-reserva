@@ -4,8 +4,6 @@ import { ShowCategories } from "./ShowCategories";
 import { useCategories } from "../../context/CategoriesContext";
 
 export function Categories({setSelectedItems}) {
-  // const [selectedCategory, setSelectedCategory] = useState(null);
-  // const [isOpen, setIsOpen] = useState(false);
   const { categories} = useCategories();
   const [openStates, setOpenStates] = useState({});
   const [selectedCategory, setSelectedCategory] = useState(null)

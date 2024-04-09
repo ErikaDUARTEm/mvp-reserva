@@ -1,5 +1,5 @@
 import "./ConfirmSelect.css";
-// eslint-disable-next-line react/prop-types
+
 export function ConfirmSelect({ selecteHour, date, selectedItemsLocal }) {
   console.log(selectedItemsLocal);
 

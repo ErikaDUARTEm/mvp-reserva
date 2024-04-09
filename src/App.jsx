@@ -23,9 +23,9 @@ const App = () => {
                   <Route path={CONFIRM} element={<Confirm />} />
               </Route>
           </Routes>
+          <ContainerButtons />
         </ServicesContextProvider>
-          
-        <ContainerButtons />
+        
         </CategoriesContextProvider>
       </ProgressContextProvider>
     </Router>
