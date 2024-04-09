@@ -20,7 +20,7 @@
 - Mostrar la opción de volver atrás o confirmar la reserva.
 
 ## Mockups
-![Mockups.](https://raw.githubusercontent.com/ErikaDUARTEm/mvp-peluqueria/main/erika/reto-tecnico-planify/challenge-desarrollador-junior/src/assets/mockup.png )
+![Mockups.](https://raw.githubusercontent.com/ErikaDUARTEm/mvp-reserva/main/src/img/mockup.png)
 ## Tecnologías y librerias
 * React
 * Javascript
