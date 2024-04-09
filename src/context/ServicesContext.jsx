@@ -3,6 +3,7 @@ import hoursData from "../slots.json";
 // Creamos el contexto
 export const ServicesContext = createContext();
 
+// eslint-disable-next-line react/prop-types
 export const ServicesContextProvider = ({ children }) => {
 
   const [dates, setDates] = useState();

@@ -4,6 +4,7 @@ import categoriesData from "../services.json";
 // Creamos el contexto
 export const CategoriesContext = createContext();
 
+// eslint-disable-next-line react/prop-types
 export const CategoriesContextProvider = ({ children }) => {
   const [categories, setCategories] = useState([]);
 
