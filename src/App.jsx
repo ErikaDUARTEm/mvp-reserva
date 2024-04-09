@@ -17,12 +17,12 @@ const App = () => {
           <ServicesContextProvider>
             <Routes>
               <Route path={HOME}>
-                <Route index element={<Home />} />
-                <Route path={HOURS} element={<Turnos />} />
-                <Route path={CONFIRM} element={<Confirm />} />
+                <Route index element={<Home/>}/>
+                <Route path={HOURS} element={<Turnos/>}/>
+                <Route path={CONFIRM} element={<Confirm/>}/>
               </Route>
             </Routes>
-            <ContainerButtons />
+            <ContainerButtons/>
           </ServicesContextProvider>
         </CategoriesContextProvider>
       </ProgressContextProvider>
